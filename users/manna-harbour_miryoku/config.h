@@ -41,3 +41,5 @@
   #define EXTRA_SHORT_COMBOS
 #endif
 
+#define BILATERAL_COMBINATIONS 300
+
