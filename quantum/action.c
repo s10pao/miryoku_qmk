@@ -348,7 +348,6 @@ static void bilateral_combinations_release(uint8_t code) {
     dprint("BILATERAL_COMBINATIONS: release\n");
     if (bilateral_combinations.active && (code == bilateral_combinations.code)) {
         bilateral_combinations.active = false;
-        bilateral_combinations.mods   = 0;
     }
 }
 static void bilateral_combinations_tap(keyevent_t event) {
@@ -371,6 +370,7 @@ static void bilateral_combinations_tap(keyevent_t event) {
         }
         else if(bilateral_combinations.mods & MOD_MASK_AG) {
             send_keyboard_report();
+            wait_ms(10);
         }
         bilateral_combinations.active = false;
     }
