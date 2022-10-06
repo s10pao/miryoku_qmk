@@ -9,7 +9,7 @@
 
 // default but used in macros
 #undef TAPPING_TERM
-#define TAPPING_TERM 200
+#define TAPPING_TERM 180
 
 // Prevent normal rollover on alphas from accidentally triggering mods.
 #define IGNORE_MOD_TAP_INTERRUPT
@@ -41,5 +41,5 @@
   #define EXTRA_SHORT_COMBOS
 #endif
 
-//#define BILATERAL_COMBINATIONS 300
+#define BILATERAL_COMBINATIONS 300
 
