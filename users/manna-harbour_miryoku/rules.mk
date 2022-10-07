@@ -9,6 +9,8 @@ OLED_ENABLE = yes
 OLED_DRIVER = SSD1306
 LTO_ENABLE  = yes
 
+COMBO_ENABLE = yes
+
 INTROSPECTION_KEYMAP_C = manna-harbour_miryoku.c # keymaps
 
 include users/manna-harbour_miryoku/custom_rules.mk
