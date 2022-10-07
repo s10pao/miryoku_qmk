@@ -40,7 +40,7 @@
   #define EXTRA_SHORT_COMBOS
 #endif
 
-#define COMBO_TERM 50
+#define COMBO_TERM 25
 
 #define BILATERAL_COMBINATIONS 300
 
