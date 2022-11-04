@@ -11,7 +11,7 @@ LTO_ENABLE  = yes
 
 #COMBO_ENABLE = yes
 
-SWAP_HANDS_ENABLE = yes
+#SWAP_HANDS_ENABLE = yes
 
 INTROSPECTION_KEYMAP_C = manna-harbour_miryoku.c # keymaps
 
