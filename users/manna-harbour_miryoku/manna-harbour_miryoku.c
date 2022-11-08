@@ -73,11 +73,15 @@ const uint16_t PROGMEM thumbcombos_fun[] = {KC_SPC, KC_TAB, COMBO_END};
 #ifdef COMBO_ENABLE
 const uint16_t PROGMEM combos_o[] = {LGUI_T(KC_A), LALT_T(KC_R), COMBO_END};
 const uint16_t PROGMEM combos_a[] = {LGUI_T(KC_O), LALT_T(KC_I), COMBO_END};
+const uint16_t PROGMEM combos_esc[] = {LT(U_BUTTON,KC_Z),    LT(U_NAV,KC_SPC),  COMBO_END};
+const uint16_t PROGMEM combos_del[] = {LT(U_BUTTON,KC_SLSH), LT(U_NUM,KC_BSPC), COMBO_END};
 
 combo_t key_combos[] = {
 //  COMBO(combos_a, KC_A),
 //  COMBO(combos_o, KC_O),
 #ifdef MIRYOKU_KLUDGE_THUMBCOMBOS
+  COMBO(combos_esc, KC_DEL),
+  COMBO(combos_del, KC_ESC),
   COMBO(thumbcombos_base_right, LT(U_FUN, KC_DEL)),
   COMBO(thumbcombos_base_left, LT(U_MEDIA, KC_ESC)),
   COMBO(thumbcombos_nav, KC_DEL),
