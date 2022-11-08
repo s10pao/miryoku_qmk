@@ -80,8 +80,8 @@ combo_t key_combos[] = {
 //  COMBO(combos_a, KC_A),
 //  COMBO(combos_o, KC_O),
 #ifdef MIRYOKU_KLUDGE_THUMBCOMBOS
-  COMBO(combos_esc, KC_DEL),
-  COMBO(combos_del, KC_ESC),
+  COMBO(combos_del, KC_DEL),
+  COMBO(combos_esc, KC_ESC),
   COMBO(thumbcombos_base_right, LT(U_FUN, KC_DEL)),
   COMBO(thumbcombos_base_left, LT(U_MEDIA, KC_ESC)),
   COMBO(thumbcombos_nav, KC_DEL),
