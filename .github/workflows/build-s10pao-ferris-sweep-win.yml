@@ -1,0 +1,12 @@
+# Copyright 2021 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Build s10pao ferris sweep miryoku OS=WIN'
+on:
+  - workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    with:
+      keyboard:  '["ferris/sweep"]'
+      clipboard: '["win"]'
