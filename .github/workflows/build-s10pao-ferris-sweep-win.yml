@@ -6,7 +6,8 @@ on:
   - workflow_dispatch
 jobs:
   build:
-    uses: ./.github/workflows/main.yml
+#    uses: ./.github/workflows/main.yml
+    uses: manna-harbour/miryoku_qmk/.github/workflows/main.yml@miryoku
     with:
       keyboard:  '["ferris/sweep"]'
       clipboard: '["win"]'
