@@ -10,4 +10,4 @@ jobs:
     with:
       keyboard:  '["crkbd"]'
       clipboard: '["win"]'
-      nav:       '["invertedt"]'
+#      nav:       '["invertedt"]'
